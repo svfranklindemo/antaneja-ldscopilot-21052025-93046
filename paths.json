@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/antaneja/wknd-(lpb)/:/",
+      "/content/antaneja/wknd-(lpb)/configuration:/.helix/config.json",
+      "/content/antaneja/wknd-(lpb)/metadata:/metadata.json",
+      "/content/antaneja/wknd-(lpb)/configs:/configs.json",
+      "/content/antaneja/wknd-(lpb)/configs-stage:/configs-stage.json",
+      "/content/antaneja/wknd-(lpb)/configs-dev:/configs-dev.json",
+      "/content/antaneja/wknd-(lpb)/redirects:/redirects.json",
+      "/content/antaneja/wknd-(lpb)/placeholders:/placeholders.json",
+      "/content/antaneja/wknd-(lpb)/products/recommended-products:/products/recommended-products.json",
+      "/content/antaneja/wknd-(lpb)/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/antaneja/wknd-(lpb)/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/antaneja/wknd-(lpb)",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
